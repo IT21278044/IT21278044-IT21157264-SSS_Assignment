@@ -1,0 +1,37 @@
+.home__bg {
+    background-image: url(https://img.freepik.com/free-vector/chatbot-concept-background-with-mobile-device_23-2147830801.jpg?t=st=1716093785~exp=1716097385~hmac=819c1621b0186d1eb7f41869632a5bf961145aeb123e308d65010fe783576bd7&w=740);
+    height: 92vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.home_t {
+    background-image: url(Toto.png);
+    width: 150px;
+    height: 182px;
+    background-position: right;
+    
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.round-rectangle {
+    width: 620px; 
+    height: 30px; 
+    border-radius: 5px; 
+    border: 2px solid #c9a3ff; 
+    background-color: #f0e3ff; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6848f2;
+    font-weight: bold;
+}
+
+.home-message-icon {
+    
+    background-color: rgb(252, 252, 252);
+    border-color: purple;
+}

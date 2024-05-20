@@ -1,0 +1,34 @@
+.signup__bg {
+    background-image: url(https://img.freepik.com/free-vector/abstract-speech-bubbles_98292-4020.jpg?t=st=1716098096~exp=1716101696~hmac=76c3667f280870f810a0c70c52181d94cd896cea2e7821ce5a172754e1b81ea9&w=740);
+    height: 650px;
+    width:250px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.signup-profile-pic__container {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.signup-profile-pic {
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    object-fit: cover;
+    height: 100px;
+}
+
+.add-picture-icon {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    color: green;
+    background: white;
+    cursor: pointer;
+    z-index: 99;
+}

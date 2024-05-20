@@ -1,0 +1,33 @@
+
+
+
+.login__bg {
+    background-image: url('https://img.freepik.com/free-photo/different-type-white-retro-speech-bubbles-green-background_23-2147910048.jpg?t=st=1716093148~exp=1716096748~hmac=f7308b065cb71ef8d61d0c892bf0616491c9921fd2b2dad302c9c16ed087592a&w=360');
+    height: 92vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.login__form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.login__form {
+    width: 80%;
+    max-width: 500px;
+}
+
+@media (max-width: 768px) {
+    .login__bg {
+        display: none;
+    }
+
+    .login__form-container {
+        width: 100%;
+    }
+}
